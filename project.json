@@ -10,7 +10,16 @@
     "main": {
       "name": "main",
       "type": "control",
-      "slots": {}
+      "slots": {
+        "input": {
+          "name": "input",
+          "type": "itemContainer"
+        },
+        "industry": {
+          "name": "industry",
+          "type": "industry"
+        }
+      }
     }
   },
   "targets": {
