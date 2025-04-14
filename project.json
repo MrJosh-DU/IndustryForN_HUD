@@ -1,0 +1,29 @@
+{
+  "cli": {
+    "fmtVersion": 3
+  },
+  "name": "IndustryForN_HUD",
+  "description": "",
+  "sourcePath": "src",
+  "outputPath": "out",
+  "builds": {
+    "main": {
+      "name": "main",
+      "type": "control",
+      "slots": {}
+    }
+  },
+  "targets": {
+    "development": {
+      "name": "development",
+      "handleErrors": false,
+      "minify": false
+    }
+  },
+  "internalPaths": [
+    "autoconf/",
+    "cpml/",
+    "pl/",
+    "utils/event"
+  ]
+}
